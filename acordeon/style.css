@@ -103,6 +103,6 @@ body {
 }
 
 .buttons a:hover {
-    color: brown;
+    color: hsl(61, 100%, 50%);
     box-shadow: 0 0 10px rgba(0,211,249,1);
 }
