@@ -1,0 +1,108 @@
+body {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.caja {
+    background-color: rgb(66, 94, 92);
+    width: 500px;
+    overflow: hidden;
+    margin-bottom: 3vh;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    box-shadow: 0 0 10px black;
+}
+
+.caja h4 {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 28px;
+    
+}
+
+.titulo-1 {
+    color: rgb(253, 236, 0); 
+}
+
+.titulo-2 {
+    color: rgb(0, 102, 255); 
+}
+
+.titulo-3 {
+    color: rgb(255, 0, 0); 
+    
+}
+
+.titulo-4 {
+    color: rgb(253, 253, 253); 
+}
+
+.titulo-5 {
+    color: rgb(255, 255, 255); 
+}
+
+.caja label {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.caja label img {
+    margin-top: 12px;
+    width: 20px;
+    filter: invert(0.5);
+    align-self: center;
+    justify-content: center;
+}
+
+.caja p {
+    margin: 0;
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color: rgb(185, 226, 101);
+    grid-column: 1 / span 2;
+}
+
+.caja input {
+    display: none;
+}
+
+.caja input:checked + h4 + label + p {
+    max-height: 200px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    gap: 15px;
+}
+
+.buttons a {
+    border-radius: 25px;
+    padding: 15px;
+    background: rgb(31, 36, 43);
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.buttons a:hover {
+    color: brown;
+    box-shadow: 0 0 10px rgba(0,211,249,1);
+}
