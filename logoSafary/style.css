@@ -1,46 +1,43 @@
-body {
-    margin: 0;
-    height: 100vh;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background-color: black;
+    align-items: center;
+    height: 100vh;
+    background:#f8f8f8 ;
+    background: linear-gradient(#1ec9ff,#2971e7);;
 }
 
-.container-safari {
-    font-size: 20px;
-    width: 15em;
-    height: 15em;
-    background-color: snow;
-    border-radius: 25%;
-    padding: 1em;
+.container{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #f2f2f2;
+    border-radius: 50px;
+    box-shadow: 0 30px 20px #ccc,
+    0 30px 30px rgba(0,0,0,0.25),
+    0 28px 0 rgba(0,0,0,0.5),
+    0 50px 60px rgba(0,0,0,0.1);
+}
+.circle-lines img{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    box-shadow: 0 30px rgb(196, 189, 189);
 }
 
-.circle-blue {
-    width: inherit;
-    height: inherit;
-    background: linear-gradient(
-        hsl(191, 98%, 55%),
-        hsl(220, 88%, 53%)
-    );
-    border-radius: 50%;
+.contenido-agujas{
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: relative;
+    align-items: center;
+    position: absolute;
+    width: 36px;
 }
-
-
-
-
-
-
 
 
 .buttons {
