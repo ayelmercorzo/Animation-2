@@ -1,4 +1,4 @@
-<h1 align="center"> PROYECTO TEST HTML </h1>
+<h1 align="center"> ANIMACIONES HTML Y CSS </h1>
 Este repositorio contiene un ejercicio de diseño web con tres secciones distintas, cada una con un enfoque y estilo únicos.
 
 ## Estructura del Repositorio
